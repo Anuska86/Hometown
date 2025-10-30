@@ -17,16 +17,25 @@ body {
   background: linear-gradient(rgb(112, 112, 241), rgb(122, 192, 209));
 }
 
-div {
-  margin-bottom: 2rem;
+section {
+  padding: 2rem;
 }
+
+/*Images*/
 
 img {
   width: 400px;
   border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 #image-myself {
   height: 300px;
   width: auto;
+  margin-bottom: 25px;
 }
